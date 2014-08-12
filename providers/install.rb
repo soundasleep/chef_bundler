@@ -14,6 +14,6 @@ action :install do
   # Execute
   execute command do
     cwd dir
-    user user if user?
+    user user if user
   end
 end
