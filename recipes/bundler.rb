@@ -4,6 +4,6 @@
 #
 # Install bundler locally
 #
-chef_bundler_bundler do
+chef_bundler_bundler "default" do
   action :install
 end
